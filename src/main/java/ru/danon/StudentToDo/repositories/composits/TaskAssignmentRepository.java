@@ -5,6 +5,9 @@ import org.springframework.stereotype.Repository;
 import ru.danon.StudentToDo.models.TaskAssignment;
 import ru.danon.StudentToDo.models.id.TaskAssignmentId;
 
+import java.util.List;
+
 @Repository
 public interface TaskAssignmentRepository extends JpaRepository<TaskAssignment, TaskAssignmentId> {
+    List<TaskAssignment> findByUserId(Integer userId);
 }

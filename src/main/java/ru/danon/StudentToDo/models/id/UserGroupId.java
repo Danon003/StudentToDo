@@ -2,8 +2,6 @@ package ru.danon.StudentToDo.models.id;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
-import jakarta.persistence.EmbeddedId;
-import jakarta.persistence.Table;
 
 import java.io.Serializable;
 import java.util.Objects;

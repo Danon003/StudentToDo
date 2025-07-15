@@ -11,6 +11,6 @@ RUN chmod +x mvnw
 
 RUN ./mvnw package -DskipTests
 
-EXPOSE 8020
+EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "target/StudentToDo-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "target/todo-0.0.1-SNAPSHOT.jar"]

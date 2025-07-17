@@ -33,7 +33,7 @@ git clone https://github.com/Danon003/StudentToDo.git
 cd StudentToDo
 ```
 **2. Запустить инфраструктуру с помощью Docker Compose**
-База для сервиса отделов (сконфигурирована в файле `docker-compose.yaml`)
+База для сервиса (сконфигурирована в файле `docker-compose.yaml`)
 ```
 docker compose up -d
 ```
